@@ -23,4 +23,4 @@ These are the specs for my keyboard:
 
 ## Images
 
-*Coming soon...*
+![Sofle Keyboard Image](./images/sofle_rgb.jpg)
