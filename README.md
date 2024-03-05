@@ -10,7 +10,7 @@ These are the specs for my keyboard:
 - Microcontroller: ATmega32U4
 - Bootloader: Caterina
 - Firmware: [QMK](https://github.com/qmk/qmk_firmware)
-- Vendor: [KeebMaker](https://github.com/qmk/qmk_firmware)
+- Vendor: [KeebMaker](https://keebmaker.com)
 - QMK keyboard id: `sofle/rev1`
 - QMK parent keymap: `rgb_default`
 - OLED display: yes (`ssd1306`)
