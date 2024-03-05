@@ -1,6 +1,6 @@
 # sofle
 
-Custom keymap for my Sofle RGB keyboard.
+QMK config for my Sofle RGB keyboard.
 
 ## Keyboard Specs
 
@@ -11,10 +11,11 @@ These are the specs for my keyboard:
 - Bootloader: Caterina
 - Firmware: [QMK](https://github.com/qmk/qmk_firmware)
 - Vendor: [KeebMaker](https://keebmaker.com)
-- QMK keyboard id: `sofle/rev1`
-- QMK parent keymap: `rgb_default`
 - OLED display: yes (`ssd1306`)
 - RGB Lighting: yes
+- Rotary Encoders: yes
+- QMK keyboard id: `sofle/rev1`
+- QMK parent keymap: `rgb_default`
 
 ## Layout
 
