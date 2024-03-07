@@ -450,33 +450,33 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
              tap_code(KC_VOLD);
          }
      } else if (index == 1) {
-         // switch (get_highest_layer(layer_state)) {
-         //     case _COLEMAK:
-         //     case _QWERTY:
-         //         // case _COLEMAKDH:
-         //         if (clockwise) {
-         //             tap_code(KC_PGDN);
-         //         } else {
-         //             tap_code(KC_PGUP);
-         //         }
-         //     break;
-         //     case _RAISE:
-         //     case _LOWER:
-         //         if (clockwise) {
-         //             tap_code(KC_DOWN);
-         //         } else {
-         //             tap_code(KC_UP);
-         //         }
-         //     break;
-         //     default:
-         //         if (clockwise) {
-         //             tap_code(KC_WH_D);
-         //         } else {
-         //             tap_code(KC_WH_U);
-         //         }
-         //     break;
-         // }
+         switch (get_highest_layer(layer_state)) {
+             // case _COLEMAK:
+             case _QWERTY:
+                 if (clockwise) {
+                     tap_code(KC_PGDN);
+                 } else {
+                     tap_code(KC_PGUP);
+                 }
+                 break;
+             case _RAISE:
+             case _LOWER:
+                 if (clockwise) {
+                     tap_code(KC_DOWN);
+                 } else {
+                     tap_code(KC_UP);
+                 }
+                 break;
+             default:
+                 if (clockwise) {
+                     tap_code(KC_WH_D);
+                 } else {
+                     tap_code(KC_WH_U);
+                 }
+                 break;
+         }
      }
+
      return true;
 }
 
