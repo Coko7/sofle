@@ -19,7 +19,7 @@ These are the specs for my keyboard:
 
 ## Layout
 
-*Coming soon...*
+![Sofle Layout Graphics](./images/keymap.svg)
 
 ## Images
 
