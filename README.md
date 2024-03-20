@@ -20,6 +20,7 @@ These are the specs for my keyboard:
 ## Layout
 
 ![Sofle Layout Graphics](./images/keymap.svg)
+This SVG was generated using the wonderful [keymap-drawer](https://github.com/caksoylar/keymap-drawer) tool.
 
 ## Images
 
