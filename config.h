@@ -42,7 +42,7 @@
 
 #define RGBLIGHT_SLEEP
 //
-#define RGBLIGHT_LAYERS
+// #define RGBLIGHT_LAYERS
 
 /* ws2812 RGB LED */
 #define WS2812_DI_PIN D3
@@ -57,9 +57,9 @@
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLIGHT_LED_COUNT
 
-	//#define RGBLIGHT_EFFECT_BREATHING
+	#define RGBLIGHT_EFFECT_BREATHING
 	#define RGBLIGHT_EFFECT_RAINBOW_MOOD
-	//#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+	#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 	//#define RGBLIGHT_EFFECT_SNAKE
 	//#define RGBLIGHT_EFFECT_KNIGHT
 	//#define RGBLIGHT_EFFECT_CHRISTMAS
@@ -70,15 +70,15 @@
 
     #define RGBLIGHT_LED_COUNT 70
 
- #undef RGBLED_SPLIT
+    #undef RGBLED_SPLIT
 	//#define RGBLED_SPLIT
 	#define RGBLED_SPLIT { 35, 35 } // haven't figured out how to use this yet
 
 	//#define RGBLIGHT_LED_COUNT 30
-    #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 10
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
+    #define RGBLIGHT_LIMIT_VAL 120
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
