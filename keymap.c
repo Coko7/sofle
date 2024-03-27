@@ -178,9 +178,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* ADJUST
  * ,-----------------------------------------.                    ,-----------------------------------------.
- * |      |      |      |      |      |      |                    | RGB P| RGB B| RGB R|RGB SW|RGB SN| RGB K|
+ * |      |      |      |      |      |      |                    | RGB B| RGB R|RGB SW| RGB K|RGB TW|      |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
- * |QKBOOT|      |      |      | CGTOG|      |                    |      | RGBM-| RGBTg| RGBM+|      |      |
+ * |QKBOOT|      |      |      | CGTOG|      |                    |      | R Hu+| R Tog| R Sa+|      |      |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |ROMCLR|      | CGTOG|      |      |      |-------.    ,-------|      | VOL- | MUTE | VOL+ |      |      |
  * |------+------+------+------+------+------|  MUTE |    |       |------+------+------+------+------+------|
@@ -191,10 +191,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *            `----------------------------------'           '------''---------------------------'
  */
 [_ADJUST] = LAYOUT(
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                         RGB_M_P, RGB_M_B,  RGB_M_R, RGB_M_SW, RGB_M_SN, RGB_M_K,
-  QK_BOOT, XXXXXXX, XXXXXXX, XXXXXXX, CG_TOGG, XXXXXXX,                         XXXXXXX, RGB_RMOD, RGB_TOG, RGB_MOD,  XXXXXXX,  XXXXXXX,
-  EE_CLR,  XXXXXXX, CG_TOGG, XXXXXXX, XXXXXXX, XXXXXXX,                         XXXXXXX, KC_VOLD,  KC_MUTE, KC_VOLU,  XXXXXXX,  XXXXXXX,
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       XXXXXXX, XXXXXXX, KC_MPRV,  KC_MPLY, KC_MNXT,  XXXXXXX,  XXXXXXX,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                         RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_K, RGB_M_TW, XXXXXXX,
+  QK_BOOT, XXXXXXX, XXXXXXX, XXXXXXX, CG_TOGG, XXXXXXX,                         XXXXXXX, RGB_HUI, RGB_TOG,  RGB_SAI, XXXXXXX,  XXXXXXX,
+  EE_CLR,  XXXXXXX, CG_TOGG, XXXXXXX, XXXXXXX, XXXXXXX,                         XXXXXXX, KC_VOLD, KC_MUTE,  KC_VOLU, XXXXXXX,  XXXXXXX,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       XXXXXXX, XXXXXXX, KC_MPRV, KC_MPLY,  KC_MNXT, XXXXXXX,  XXXXXXX,
                     _______, _______, _______, _______, _______,       _______, _______, _______, _______, _______
 ) };
 
