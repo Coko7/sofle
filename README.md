@@ -28,4 +28,4 @@ Keyboard picture:
 ![Sofle Keyboard Image](./images/sofle_rgb.jpg)
 
 Custom OLED pixel art:
-![Gaimon (from One Piece) OLED Pixel Art](./images/gaimon_oled.png)
+![Gaimon (from One Piece) OLED Pixel Art](./images/gaimon_oled_10x.png)
