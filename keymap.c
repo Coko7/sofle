@@ -345,7 +345,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              oled_write_P(PSTR("Lower"), false);
              break;
          case _ADJUST:
-             oled_write_P(PSTR("Adj\n"), false);
+             oled_write_P(PSTR("Adjst\n"), false);
              break;
          // case _NUMPAD:
          //     oled_write_P(PSTR("Nump\n"), false);
