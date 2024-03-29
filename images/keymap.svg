@@ -16,6 +16,9 @@ svg.keymap {
 /* default key styling */
 rect.key {
     fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
     stroke: #c9cccf;
     stroke-width: 1;
 }
@@ -1038,7 +1041,7 @@ path.combo {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">P</tspan>
+<tspan x="0" dy="1.2em">B</tspan>
 </text>
 </g>
 <g transform="translate(672, 35)" class="key keypos-7">
@@ -1046,7 +1049,7 @@ path.combo {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">B</tspan>
+<tspan x="0" dy="1.2em">R</tspan>
 </text>
 </g>
 <g transform="translate(728, 28)" class="key keypos-8">
@@ -1054,7 +1057,7 @@ path.combo {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">R</tspan>
+<tspan x="0" dy="1.2em">SW</tspan>
 </text>
 </g>
 <g transform="translate(784, 35)" class="key keypos-9">
@@ -1062,7 +1065,7 @@ path.combo {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">SW</tspan>
+<tspan x="0" dy="1.2em">K</tspan>
 </text>
 </g>
 <g transform="translate(840, 49)" class="key keypos-10">
@@ -1070,16 +1073,12 @@ path.combo {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">SN</tspan>
+<tspan x="0" dy="1.2em">TW</tspan>
 </text>
 </g>
 <g transform="translate(896, 56)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">RGB</tspan><tspan x="0" dy="1.2em">M</tspan>
-<tspan x="0" dy="1.2em">K</tspan>
-</text>
 </g>
 <g transform="translate(28, 112)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1095,10 +1094,14 @@ path.combo {
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">L0</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">L1</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1119,7 +1122,7 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">RMOD</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUI</tspan>
 </text>
 </g>
 <g transform="translate(728, 84)" class="key keypos-20">
@@ -1133,7 +1136,7 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">MOD</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAI</tspan>
 </text>
 </g>
 <g transform="translate(840, 105)" class="key keypos-22">
