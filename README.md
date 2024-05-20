@@ -1,4 +1,4 @@
-# sofle
+# ⌨️ sofle
 
 QMK config for my Sofle RGB keyboard.
 
