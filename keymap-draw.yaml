@@ -1,0 +1,197 @@
+layout: {qmk_keyboard: sofle/rev1, qmk_layout: LAYOUT}
+layers:
+  Base (L0): [
+    {h: '~', t: '`'}, {h: '!', t: '1'}, {h: '@', t: '2'}, {h: '#', t: '3'}, {h: '$', t: '4'}, {h: '%', t: '5'},
+    {h: '^', t: '6'}, {h: '&', t: '7'}, {h: '*', t: '8'}, {h: '(', t: '9'}, {h: ')', t: '0'}, {h: '-', t: '_'},
+    ESC, Q, W, E, R, T,
+    Y, U, I, O, P, {t: '⌫BSPC'},
+    {t: '⭾TAB'}, A, S, D, F, G,
+    H, J, K, L, ;, '''',
+    🡅LSFT, Z, X, C, V, B, {h: 'MUTE', t: '🔈'},
+    '', N, M, ',', ., /, 🡅RSFT,
+    {h: 'LGUI', t: '🐧'}, LALT, LCTL, L1🠉, SPC,
+    ENT⮠, L2🠉, RCTL, RALT, {h: 'RGUI', t: '🐧'}
+  ]
+  Lower (L1):
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F12
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - {t: ▽, type: trans}
+  - '='
+  - '-'
+  - +
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - ;
+  - ':'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L3🠉
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Raise (L2):
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - {h: 'PSCR', t: '📷'}
+  - APP
+  - ''
+  - ''
+  - Ctl+ LEFT
+  - ''
+  - ''
+  - Ctl+ RGHT
+  - Ctl+ BSPC
+  - {t: '⌫BSPC'}
+  - {t: ▽, type: trans}
+  - LALT
+  - LCTL
+  - LSFT
+  - ''
+  - CAPS
+  - 🠈LEFT
+  - 🠋DOWN
+  - UP🠉
+  - RGHT🠊
+  - DEL
+  - {t: '⌫BSPC'}
+  - {t: ▽, type: trans}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ⯬HOME
+  - ⯯PGDN
+  - PGUP⯭
+  - END⯮
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L3🠉
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Adjust (L3):
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB M B
+  - RGB M R
+  - RGB M SW
+  - RGB M K
+  - RGB M TW
+  - ''
+  - QK BOOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB HUI
+  - RGB TOG
+  - RGB SAI
+  - ''
+  - ''
+  - EE CLR
+  - ''
+  - CG TOGG
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOLD
+  - MUTE
+  - VOLU
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MPRV
+  - MPLY
+  - MNXT
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
