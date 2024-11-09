@@ -24,8 +24,9 @@ This SVG was generated using the wonderful [keymap-drawer](https://github.com/ca
 
 ## Images
 
-Keyboard picture:
+Keyboard pictures:
 ![Sofle Keyboard Image](./images/sofle_rgb.jpg)
+![Sofle Keyboard Image (New keycaps + rgb ON)](./images/sogle_rgb_vim_propaganda.jpg)
 
 Custom OLED pixel art:
 ![Gaimon (from One Piece) OLED Pixel Art](./images/gaimon_oled_10x.png)
