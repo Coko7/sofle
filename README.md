@@ -2,6 +2,11 @@
 
 QMK config for my Sofle RGB keyboard.
 
+> [!NOTE]
+> I have switched to using a [Corne](https://github.com/foostan/crkbd) as my main keyboard.
+> I will keep this repo here but it is unlikely I will make further updates to it.
+> You can find my Corne config at [coko7/crkbd](https://github.com/Coko7/crkbd).
+
 ## Keyboard Specs
 
 These are the specs for my keyboard:
